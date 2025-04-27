@@ -1,19 +1,19 @@
- /** HEADER **/
- #header-nav {
+/** HEADER **/
+#header-nav { /* fondo y bordes header */
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
-    }
-    #logo-img {
+}
+#logo-img { /* logo imagen */
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
-    }
-    .navbar-brand {
+}
+.navbar-brand { /* padding marca */
     padding-top: 25px;
-    }
-    .navbar-brand h1 { /* Restaurant name */
+}
+.navbar-brand h1 { /* nombre restaurante */
     font-family: 'Lora', serif;
     color: #557c3e;
     font-size: 1.5em;
@@ -23,210 +23,204 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
-    }
-    .navbar-brand a:hover, .navbar-brand a:focus {
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /* no subrayado hover */
     text-decoration: none;
-    }
-    .navbar-brand p { /* Kosher cert */
-        color: #000;
-        text-transform: uppercase;
-        font-size: .7em;
-        margin-top: 15px;
-        }
-    .navbar-brand p span { /* Star-K */
-        vertical-align: middle;
-    }
-
-     #nav-list {
- margin-top: 10px;
- }
- #nav-list a {
- color: #951C49;
- text-align: center;
- }
- #nav-list a:hover {
- background: #E7E7E7;
- }
- #nav-list a span {
- font-size: 1.8em;
- }
- #phone {
- margin-top: 5px;
- }
- #phone a { /* Phone number */
- text-align: right;
- padding-bottom: 0;
- }
- #phone div { /* We Deliver */
- color: #557c3e;
- text-align: right;
- padding-right: 15px;
- }
- .navbar-header button.navbar-toggle, .navbar-header
- .icon-bar {
- border: 1px solid #61122f;
- }
- .navbar-header button.navbar-toggle {
- clear: both;
- margin-top: -30px;
- }
-/************************************************/
-
- #nav-list {
+}
+.navbar-brand p { /* certificación kosher */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span { /* alinea logo kosher */
+    vertical-align: middle;
+}
+#nav-list { /* margen superior menú */
     margin-top: 10px;
-    }
-    #nav-list a {
+}
+#nav-list a { /* color enlaces menú */
     color: #951C49;
     text-align: center;
-    }
-    #nav-list a:hover {
+}
+#nav-list a:hover { /* fondo hover menú */
     background: #E7E7E7;
-    }
-    #nav-list a span {
+}
+#nav-list a span { /* tamaño íconos menú */
     font-size: 1.8em;
-    }
-    #phone {
+}
+#phone { /* margen teléfono */
     margin-top: 5px;
-    }
-    #phone a { /* Phone number */
+}
+#phone a { /* alinea número teléfono */
     text-align: right;
     padding-bottom: 0;
-    }
-    #phone div { /* We Deliver */
+}
+#phone div { /* texto "We Deliver" */
     color: #557c3e;
     text-align: right;
     padding-right: 15px;
-    }
-    .navbar-header button.navbar-toggle, .navbar-header
-    .icon-bar {
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* borde botón menú móvil */
     border: 1px solid #61122f;
-    }
-    .navbar-header button.navbar-toggle {
+}
+.navbar-header button.navbar-toggle { /* ajustes botón móvil */
     clear: both;
     margin-top: -30px;
-    }
-
-
- /********** Large devices only **********/
- @media (min-width: 1200px) {
 }
+/************************************************/
+
+#nav-list { /* repetido margen menú */
+    margin-top: 10px;
+}
+#nav-list a { /* repetido color menú */
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover { /* repetido fondo hover */
+    background: #E7E7E7;
+}
+#nav-list a span { /* repetido tamaño íconos */
+    font-size: 1.8em;
+}
+#phone { /* repetido margen teléfono */
+    margin-top: 5px;
+}
+#phone a { /* repetido número teléfono */
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div { /* repetido texto "We Deliver" */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* repetido borde botón */
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle { /* repetido ajustes botón */
+    clear: both;
+    margin-top: -30px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) { /* dispositivos grandes */
+}
+
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-/* Header */
-#logo-img {
-background: url('../images/restaurant-logo_medium.png') no-repeat;
-width: 100px;
-height: 100px;
-margin: 5px 5px 5px 0;
+@media (min-width: 992px) and (max-width: 1199px) { /* dispositivos medianos */
+    /* Header */
+    #logo-img { /* logo más pequeño */
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* End Header */
 }
-/* End Header */
-}
+
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) { /* dispositivos pequeños */
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (max-width: 767px) { /* móviles */
+
     /* Header */
-    .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
+    .navbar-brand { /* menor padding marca */
+        padding-top: 10px;
+        height: 80px;
     }
-    .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    .navbar-brand h1 { /* nombre más chico */
+        padding-top: 10px;
+        font-size: 5vw;
     }
-    .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
+    .navbar-brand p { /* kosher más chico */
+        font-size: .6em;
+        margin-top: 12px;
     }
-    .navbar-brand p img { /* Star-K */
-    height: 20px;
+    .navbar-brand p img { /* logo kosher chico */
+        height: 20px;
     }
-    #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+    #collapsable-nav a { /* texto menú colapsado */
+        font-size: 1.2em;
     }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
+    #collapsable-nav a span { /* ícono menú colapsado */
+        font-size: 1em;
+        margin-right: 5px;
     }
-    #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+    #call-btn > a { /* botón llamada */
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
     }
-    #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+    #xs-deliver { /* texto "we deliver" móvil */
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
     }
     /* End Header */
-/* Footer */
-.panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
+
+    /* Footer */
+    .panel-footer section { /* secciones centradas */
+        margin-bottom: 30px;
+        text-align: center;
     }
-    .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists
-    on the whole row */
+    .panel-footer section:nth-child(3) { /* último sin margen extra */
+        margin-bottom: 0;
     }
-    .panel-footer section hr {
-    width: 50%;
+    .panel-footer section hr { /* líneas más cortas */
+        width: 50%;
     }
     /* End Footer */
-   
-    .container .jumbotron {
+
+    .container .jumbotron { /* jumbotron móvil */
         margin-top: 30px;
         padding: 0;
-        }
-        #menu-tile, #specials-tile {
+    }
+    #menu-tile, #specials-tile { /* ancho mosaicos móvil */
         width: 360px;
         margin: 0 auto 15px;
     }
+}
 
-    }
-
-   
-       
-
- /* HOME PAGE */
- .container .jumbotron {
+/* HOME PAGE */
+.container .jumbotron { /* jumbotron sombra y borde */
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
-    }
-    /* END HOME PAGE */
+}
+/* END HOME PAGE */
 
- /* HOME PAGE */
- .container .jumbotron {
+/* HOME PAGE */
+.container .jumbotron { /* repetido jumbotron */
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
-    }
-    #menu-tile, #specials-tile, #map-tile {
+}
+#menu-tile, #specials-tile, #map-tile { /* mosaicos home */
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
     border: 2px solid #3F0C1F;
     overflow: hidden;
-    }
-    #menu-tile:hover, #specials-tile:hover, 
-   #map-tile:hover {
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover { /* sombra hover mosaicos */
     box-shadow: 0 1px 5px 1px #cccccc;
-    }
-    #menu-tile {
+}
+#menu-tile { /* imagen menú */
     background: url('../images/menu-tile.jpg') no-repeat;
     background-position: center;
-    }
-    #specials-tile {
+}
+#specials-tile { /* imagen especiales */
     background: url('../images/specials-tile.jpg') no-repeat;
     background-position: center;
-    }
-    #menu-tile span, #specials-tile span, #map-tile span {
+}
+#menu-tile span, #specials-tile span, #map-tile span { /* texto sobre mosaicos */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -237,90 +231,72 @@ margin: 5px 5px 5px 0;
     background-color: #000;
     color: #fff;
     opacity: .8;
-    }
+}
 
- /* FOOTER */
- .panel-footer {
+/* FOOTER */
+.panel-footer { /* fondo y padding footer */
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: #222;
     border-top: 0;
-    }
-    .panel-footer div.row {
+}
+.panel-footer div.row { /* margen filas footer */
     margin-bottom: 35px;
-    }
-    #hours, #address {
+}
+#hours, #address { /* espaciado horarios y dirección */
     line-height: 2;
-    }
-    #hours > span, #address > span {
+}
+#hours > span, #address > span { /* tamaño textos horarios/dirección */
     font-size: 1.3em;
-    }
-    #address p {
+}
+#address p { /* color dirección */
     color: #557c3e;
     font-size: .8em;
     line-height: 1.8;
-    }
-    #testimonials {
+}
+#testimonials { /* estilo citas footer */
     font-style: italic;
-    }
-    #testimonials p:nth-child(2) {
+}
+#testimonials p:nth-child(2) { /* margen segunda cita */
     margin-top: 25px;
-    }
-    /* END FOOTER */
-   
-   
-    
-    /* END HOME PAGE */
-    /********** Large devices only **********/
-   
+}
+/* END FOOTER */
 
-    @media (min-width: 1200px) {
-        .container .jumbotron {
+/********** Large devices only **********/
+@media (min-width: 1200px) { /* fondo jumbotron grande */
+    .container .jumbotron {
         background: url('../images/jumbotron_1200.jpg') no-repeat;
         height: 675px;
-        }
     }
-     /********** Small devices only **********/
- /********** Small devices only **********/
-    @media (min-width: 768px) and (max-width: 991px){
-        /* Home Page */
-        .container .jumbotron {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) { /* fondo jumbotron mediano */
+    .container .jumbotron {
         background: url('../images/jumbotron_768.jpg') no-repeat;
         height: 432px;
-        }
-    }      
-    
- /* End Home Page */
-    @media (max-width: 767px) {
-    /* Home Page */
-        .container .jumbotron {
+    }
+}
+
+/* End Home Page */
+@media (max-width: 767px) { /* ajustes jumbotron móvil */
+    .container .jumbotron {
         margin-top: 30px;
         padding: 0;
-        }
     }
- /* End Home Page */
+}
 
- 
-     /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-     @media (max-width: 479px) {
-        /* Header */
-        .navbar-brand h1 { /* Restaurant name */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) { /* móviles ultra pequeños */
+    /* Header */
+    .navbar-brand h1 { /* nombre más chico */
         padding-top: 5px;
         font-size: 6vw;
-        }
-        /* End Header */
-        /* Home page */
-        #menu-tile, #specials-tile {
+    }
+    /* Home page */
+    #menu-tile, #specials-tile { /* mosaicos aún más pequeños */
         width: 280px;
         margin: 0 auto 15px;
-        }
     }
-
-
-
-       
-   
- 
-       
-   
+}
